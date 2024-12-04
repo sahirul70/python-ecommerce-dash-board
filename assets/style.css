@@ -1,0 +1,88 @@
+body {
+    background-color: #192444;
+    margin: 5%;
+  }
+  .has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: white;
+  }
+  .top_chart{
+    display: flex;
+  }
+  .montly_train{
+    width:48%;
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #1f2c56;
+  }
+  .category_pie{
+    width:48%;
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #1f2c56;
+    float: left;
+  }
+  .mid_chart{
+    display: flex;
+  }
+  .sub_category_bar{
+    width:48%;
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #1f2c56;
+  }
+  .time_profit{
+    width:48%;
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #1f2c56;
+    float: left;
+  }
+
+.bottom_chart{
+  display: flex;
+}
+.profit_category_bar{
+  width:31%;
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #1f2c56;
+}
+.bottom_time_profit{
+  width:31%;
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #1f2c56;
+  float: left;
+}
+
+.bottom_time_profit_salse{
+  width:31%;
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #1f2c56;
+  float: left;
+}
+.top_filter{
+  display: flex;
+}
+.top_right{
+  width:50%;
+}
+.top_left{
+  width:50%;
+  float: right;
+}
