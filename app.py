@@ -16,6 +16,7 @@ df['Order Day of Week'] = df['Order Date'].dt.dayofweek
 
 # Initialize Dash app
 app = Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
+server = app.server  # Expose the server for deployment
 
 
 app.layout = html.Div([
@@ -253,6 +254,5 @@ def update_figure_profit(selected_year,selected_region):
 if __name__ == '__main__':
     app.run_server(debug=True)
 
-server = app.server
     
     
