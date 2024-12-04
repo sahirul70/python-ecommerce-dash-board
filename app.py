@@ -16,6 +16,7 @@ df['Order Day of Week'] = df['Order Date'].dt.dayofweek
 
 # Initialize Dash app
 app = Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
+server = app.server
 
 app.layout = html.Div([
     html.H1(
