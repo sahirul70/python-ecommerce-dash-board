@@ -3,6 +3,7 @@ certifi==2024.8.30
 charset-normalizer==3.4.0
 click==8.1.7
 colorama==0.4.6
+gunicorn
 dash==2.18.2
 dash-core-components==2.0.0
 dash-html-components==2.0.0
