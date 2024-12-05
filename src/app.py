@@ -84,6 +84,45 @@ app.layout = html.Div([
             dcc.Graph(id='salse-with-slider')], className="bottom_time_profit_salse"
         )
     ],className="bottom_chart")
+    html.Div([
+        html.H3(
+        children='Develp by :',
+        style={
+            'textAlign': 'center',
+            'color': '#fff'
+        }
+        html.H3(
+        children='Sairul Islam :',
+        style={
+            'textAlign': 'center',
+            'color': '#fff'
+        }
+        html.H4(
+        children='linkdin : https://www.linkedin.com/in/sairulislam/ ',
+        style={
+            'textAlign': 'center',
+            'color': '#fff'
+        }
+        html.H4(
+        children='Facebook : https://web.facebook.com/sahirul.islam.9',
+        style={
+            'textAlign': 'center',
+            'color': '#fff'
+        }
+        html.H4(
+        children='github : https://github.com/sahirul70 ',
+        style={
+            'textAlign': 'center',
+            'color': '#fff'
+        }
+        html.H4(
+        children='portfolio : https://sahirul70.github.io/sairul/',
+        style={
+            'textAlign': 'center',
+            'color': '#fff'
+        }
+    ),
+    ])
 ])
 
 @callback(
