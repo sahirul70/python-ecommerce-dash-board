@@ -92,7 +92,7 @@ app.layout = html.Div([
             'color': '#fff'
         }),
         html.H3(
-        children='Sairul Islam :',
+        children='Sairul Islam',
         style={
             'textAlign': 'center',
             'color': '#fff'
