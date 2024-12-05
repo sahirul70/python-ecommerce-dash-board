@@ -21,7 +21,7 @@ server = app.server  # Expose the server for deployment
 
 app.layout = html.Div([
     html.H1(
-        children='E-Commerce Dashboard in Python',
+        children='E-Commerce Data Analysis Dashboard in Python',
         style={
             'textAlign': 'center',
             'color': '#fff'
